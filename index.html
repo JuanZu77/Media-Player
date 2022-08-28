@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+</head>
+  
+  <link rel="Stylesheet" href="estilos.css">
+
+  <script src="js.js" defer></script>  
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+
+<body>
+    
+    <main class="player">
+
+           <!--TITULO-->
+           <h1 class="title" id="title"> Nueva Canción</h1>
+
+           <!--IMAGEN PRINCIAL-->
+           <img src="img/Cover.jpg" alt="" class="cover" id="cover">
+
+           <!--Audio HTML Media Element-->
+           <audio src="" id="audio"></audio>
+
+           <!--BARRA de Progreso-->
+           <div id="progress-container" class="progress-container">
+            <section id="progress" class="progress"></section>
+           </div>
+
+           <!--CONTROLES-->
+           <section class="controls">
+            <button class="prev">
+              <i id="prev" class="fas fa-backward"></i> 
+            </button>
+
+            <button class="play">
+              <i id="play" class="fas fa-play"></i> 
+            </button>
+
+            <button class="next">
+              <i id="next" class="fas fa-forward"></i> 
+            </button>
+
+           </section>
+           
+           <!--LISTA de Canciones-->            
+           <ul class="songs" id="songs"> 
+            </ul>
+
+    </main>
+</body>
+
+</html>
